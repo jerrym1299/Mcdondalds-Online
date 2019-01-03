@@ -1,0 +1,13 @@
+Mcdonalds order system
+ - pickup or delivery
+ - 2 sides Client and Business
+ - login system w/ database
+ - products and cart system for client
+ - business view, client details orders
+ - incoming orders
+ - stock system eg. product out of stock
+ - Mcdonalds Order
+ 
+ Optional/Afterwards
+ - Reports on most sold products
+ - labels 
