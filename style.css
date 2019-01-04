@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  background-color: #f3ede5;
+  text-decoration: none;
+}
+.main{
+  background-color: purple;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 10vh 90vh;
+  grid-row-gap: 10px;
+}
+.logobox{
+  background-color: #db0203;
+}
+.menubar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.orderdetailgrid{
+  display: grid;
+  grid-template-rows: 1fr 6fr 3fr;
+  grid-row-gap: 10px;
+  width: 100%
+}
+.header{
+  background-color: yellow;
+}
+.mainsection{
+  background-color: red;
+}
+.totalsection{
+  background-color: blue;
+}
+
+.buttondiv{
+  background-color: #1d2023;
+  height: 100%;
+  font-family:'Helvetica Neue Bold';
+  color: white;
+  text-align: center;
+  font-weight: normal;
+
+  font-size: 25px;
+  text-decoration:none!important;
+  display: block;
+}
+.buttondiv:hover{
+  background-color: #3a3b3d;
+}
+.menubtn{
+  display: block;
+  text-decoration: none!important;
+}
+.logo{
+  height: 100%;
+  margin-top: 7px;
+
+
+}
