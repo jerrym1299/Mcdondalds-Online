@@ -1,6 +1,5 @@
-body{
+ body{
   margin: 0;
-  background-color: #f3ede5;
   text-decoration: none;
 }
 .main{
@@ -10,7 +9,7 @@ body{
   display: grid;
   grid-template-columns: 2fr 8fr;
   grid-template-rows: 10vh 90vh;
-  grid-row-gap: 10px;
+
 }
 .logobox{
   background-color: #db0203;
@@ -27,7 +26,8 @@ body{
   width: 100%
 }
 .header{
-  background-color: yellow;
+  background-color: #dd3334;
+  margin-top: 10px;
 }
 .mainsection{
   background-color: red;
@@ -43,7 +43,6 @@ body{
   color: white;
   text-align: center;
   font-weight: normal;
-
   font-size: 25px;
   text-decoration:none!important;
   display: block;
@@ -56,8 +55,19 @@ body{
   text-decoration: none!important;
 }
 .logo{
-  height: 100%;
-  margin-top: 7px;
-
-
+  height: 90%;
+  Width: 400px;
+  margin: none;
+  margin-right: -90px;
 }
+.orderdetail{
+  text-align: center;;
+  color: white;
+  font-family:'Helvetica Neue Bold';
+  margin-top: -0.5vh;
+}
+.contentframe{
+  height:100%;
+  width: 100%;
+
+  }
